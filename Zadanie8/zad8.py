@@ -1,5 +1,3 @@
-import mplcursors
-import numpy as np
 from matplotlib import pyplot as plt
 
 Temp = []

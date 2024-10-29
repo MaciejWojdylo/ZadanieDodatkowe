@@ -14,8 +14,8 @@ for i in B:
         AuB[i] = B[i]
 sorted_AuB = OrderedDict(sorted(AuB.items()))
 print("A ∪ B")
-print(list(sorted_AuB))
 print(list(sorted_AuB.values()))
+print(list(sorted_AuB))
 print("A ∩ B")
 AnB = OrderedDict()
 ans = OrderedDict()
@@ -27,5 +27,5 @@ for i in B:
     else:
         AnB[i] = B[i]
 sorted_AnB = OrderedDict(sorted(ans.items()))
-print(list(sorted_AnB))
 print(list(sorted_AnB.values()))
+print(list(sorted_AnB))

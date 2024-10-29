@@ -29,13 +29,9 @@ plt.xlabel("Wartości bmi")
 plt.ylabel("Wartości healthy(x)")
 plt.legend()
 
-plt1 = plt
-
 plt.plot(bmi, unhealthy, label='Bmi nie zdrowy', color='red', marker='o')
 plt.title("BMI a Healthy")
 plt.xlabel("Wartości bmi")
 plt.ylabel("Wartości healthy(x)")
 plt.legend()
-
-plt1.show()
 plt.show()

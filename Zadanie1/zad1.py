@@ -1,5 +1,3 @@
-from math import ceil
-
 temp = [20,35,40,50,60,70,80,90,100]
 u_hot = []
 for i in temp:
